@@ -202,5 +202,83 @@
     font-weight: 300;
     font-family: "Mulish", sans-serif;
 }
-
 /* Footer End */
+
+@media (max-width: 768px) {
+
+    /* Section One */
+    
+    .section-one .container {        
+        margin-top: 24px;
+        gap: 2px;
+    }
+
+    .section-one .container .title-navbar {        
+        font-size: 18px;        
+        line-height: 19px;
+        padding-top: 15px;
+    }
+    
+    .section-one .content { 
+        margin-top: 100px; 
+        text-align: center;  
+    }
+    
+    .section-one .content .title {        
+        font-size: 30px;
+        
+        letter-spacing: 1px;
+    }
+    
+    .section-one .content .sub-title {        
+        font-size: 38px;        
+    }
+    
+    .section-one .content .ket-title {        
+        font-size: 24px;        
+    }
+    /* Section One End */
+
+    /* Section Card */
+    .wrap {    
+        margin-top: -230px;        
+    }
+    
+    .wrap .card {        
+        margin: 0px 10px 100px 10px;             
+    }
+    
+    .wrap .card img {
+        width: 181px;        
+        padding-top: 40px;
+    }        
+    
+    .wrap .card .title {        
+        font-size: 12px;
+        margin: 7px 0px 18px 0px;                
+    }
+    
+    .wrap .card .title-card {        
+        font-size: 18px;        
+    }
+    
+    .wrap .card .ket {
+        margin-top: -15px;        
+        font-size: 12px;        
+        width: 320px;
+        line-height: 21px;    
+    }
+    
+    .wrap .card a button {                
+        width: 158px;
+        height: 38px;        
+        font-size: 12px;        
+        margin-bottom: 35px;
+    }    
+    /* Section Card End */
+
+    /* Section Footer */
+
+    
+    /* Section Footer End */
+}
