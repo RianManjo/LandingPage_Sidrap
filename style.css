@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
 *, html {
     margin: 0;
     padding: 0;
@@ -45,16 +48,94 @@
     font-size: 55px;
     font-family: Mulish, sans-serif;
     font-weight: 700;
-    
+    text-shadow: -1px -1px 0 #08844C, 1px -1px 0 #08844C, -1px 1px 0 #08844C, 1px 1px 0 #08844C; 
 }
 
-.section-one .content .ket {
+.section-one .content .ket-title {
     color: #FFF;
     font-size: 32px;
     font-family: Mulish, sans-serif;
     font-weight: 100;
 }
-
-
-
 /* Section One End */
+
+/* Section Card */
+
+.wrap {    
+    margin-top: -230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap .card {
+    background-color: #DFFFF1;
+    border-radius: 20px;
+    margin-bottom: 100px;            
+}
+
+.wrap .card img {
+    width: 281px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.wrap .card .title {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+
+.wrap .card .title-card {
+    color: #16A34A;
+    font-size: 24px;
+    font-family: Mulish, sans-serif;
+    font-weight: 700;      
+}
+
+.wrap .card .ket {
+    color: #7D7987;
+    font-size: 16px;
+    font-family: Mulish, sans-serif;
+    font-weight: 100;
+}
+
+.wrap .card .title-card, .ket {
+    width: 474.5px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+.wrap .card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;    
+}
+
+.wrap .card a button {
+    background-color: #16A34A;
+    border: none;
+    border-radius: 10px;
+    width: 198px;
+    height: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+    /* Section Card End */
