@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 *, html {
     margin: 0;
@@ -25,7 +24,7 @@
 .section-one .container .title-navbar {
     color: #FFF;
     font-size: 25px;
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     line-height: 30px;
     padding-top: 15px;
@@ -38,7 +37,7 @@
 .section-one .content .title {
     color: #FFF;
     font-size: 55px;
-    font-family: Mulish, sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
 }
@@ -46,7 +45,7 @@
 .section-one .content .sub-title {
     color: #C9FFDE;
     font-size: 55px;
-    font-family: Mulish, sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 700;
     text-shadow: -1px -1px 0 #08844C, 1px -1px 0 #08844C, -1px 1px 0 #08844C, 1px 1px 0 #08844C; 
 }
@@ -54,7 +53,7 @@
 .section-one .content .ket-title {
     color: #FFF;
     font-size: 32px;
-    font-family: Mulish, sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 100;
 }
 /* Section One End */
@@ -101,19 +100,19 @@
 .wrap .card .title-card {
     color: #16A34A;
     font-size: 24px;
-    font-family: Mulish, sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 700;      
 }
 
 .wrap .card .ket {
     color: #7D7987;
     font-size: 16px;
-    font-family: Mulish, sans-serif;
-    font-weight: 100;
+    font-family: "Mulish", sans-serif;
+    font-weight: 100;    
 }
 
 .wrap .card .title-card, .ket {
-    width: 474.5px;
+    
     padding-left: 30px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -139,3 +138,54 @@
     margin-bottom: 40px;
 }
     /* Section Card End */
+
+/* Footer */
+
+.footer .card {
+    background-color: #08844C;
+    color: #FFF;
+    font-family: "Mulish", sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+
+.footer .card .row {
+    margin: 44px 0px 44px 0px;
+}
+
+.footer .card .col-md-1 img {
+    width: 40px;
+    float: right;
+}
+
+.footer .card .title {
+    padding-top: 5px;
+    font-size: 24px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
+
+.medsos {
+    padding-top: 29px;
+}
+
+.medsos p {
+    text-align: end;    
+    padding: 0px 50px 0px 0px;
+}
+
+.medsos .icon-medsos {
+    float: right;
+    padding: 0px 50px 0px 0px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 33px 0px 69px 0px;
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Mulish", sans-serif;
+}
+
+/* Footer End */
