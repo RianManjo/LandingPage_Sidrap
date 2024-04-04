@@ -1,0 +1,60 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section One */
+.section-one {
+    background-image: url('assets/images/bg-section-one.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1070px;
+}
+
+.section-one .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 22px;
+}
+
+.section-one .container .title-navbar {
+    color: #FFF;
+    font-size: 25px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+.section-one .content { 
+    margin-top: 70px;   
+}
+
+.section-one .content .title {
+    color: #FFF;
+    font-size: 55px;
+    font-family: Mulish, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.section-one .content .sub-title {
+    color: #C9FFDE;
+    font-size: 55px;
+    font-family: Mulish, sans-serif;
+    font-weight: 700;
+    
+}
+
+.section-one .content .ket {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Mulish, sans-serif;
+    font-weight: 100;
+}
+
+
+
+/* Section One End */
